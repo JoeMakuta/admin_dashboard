@@ -1,0 +1,17 @@
+.container > header{
+display: flex;
+flex-direction: row;
+padding: 50px;
+padding-left: 20%;
+background-color: blue;
+
+}
+.container > nav{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgb(19, 111, 197);
+    color: white;
+    height: 500px;
+    width: 50px;
+}
