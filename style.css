@@ -5,9 +5,11 @@ body{
 
 .mainContainer{
    display: grid;
-   grid-template-columns: 20% 80%;
+   grid-template-columns: 20% 110%;
    grid-template-rows: 1fr;
 }
+
+
 
 .dashboard{
    display: grid;
@@ -288,9 +290,9 @@ header {
    background-color: white;
 }
 
-.partie2 {
+/* .partie2 {
    background-color: rgb(228, 234, 240);
-}
+} */
 
 .icon>span {
    float: right;
