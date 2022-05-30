@@ -11,9 +11,8 @@ body{
 
 
 
-.dashboard{
-   display: grid;
-   grid-row: 1 / 4;
+.Dashboard{
+   color : white;
 }
 
 .secondContainer{
@@ -103,6 +102,10 @@ body{
    border-bottom: 5px rgb(77, 77, 77);
 }
 
+.personne3{
+   padding-left: 20px;
+}
+
 .update{
    display: grid;
    grid-template: 5px 1fr / 1fr;
@@ -111,8 +114,9 @@ body{
 .community{
    display: grid;
    grid-template: 5px 1fr / 1fr;
-   margin-bottom: 20px;
-   border-bottom: 5px rgb(77, 77, 77);
+   padding-bottom: 5px;
+   border-bottom: 10px rgb(77, 77, 77);
+   border-radius: 50%;
 }
 
 .secondGrid{
@@ -159,6 +163,9 @@ body{
    grid-row-gap: 10px ;
 }
 
+
+/* Personne 1 */
+
 .entete {
    display: grid;
    grid-template: 1fr 1fr / 2fr 1fr;
@@ -178,7 +185,7 @@ span {
    height: 30px;
    border: 0px solid transparent;
    border-radius: 20px;
-   background-color: rgb(228, 234, 240);
+   background-color: rgb(224, 224, 224);
 }
 
 .recherche1 {
@@ -250,9 +257,9 @@ main {
 
 header {
    display: grid;
-   height: 100%;
-   grid-template-rows: 1fr 4fr;
-   background-color: rgb(228, 234, 240);
+   height: 100%; 
+   grid-template-rows: 1fr;
+   background-color: rgb(94, 126, 158);
 }
 
 .user:nth-child(2) {
